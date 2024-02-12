@@ -578,9 +578,6 @@ button{
     font-weight: 500;
 }
 
-.home-img{
-}
-
 .home-text,
 .home-img{
     width: 50%;
@@ -1037,6 +1034,28 @@ button{
     }
     .pp-header h3{
         font-size: 20px;
+    }
+}
+
+@media (max-width: 425px) {
+    .section-title h2,
+    .header .nav-inner ul li a {
+        font-size: 35px;
+    }
+    .home-text h1 {
+        font-size: 30px;
+    }
+    .home-text h2 {
+        font-size: 18px;
+    }
+    .pp-header h3 {
+        font-size: 20px;
+    }
+
+    .portfolio-section .container .row {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
     }
 }
 
